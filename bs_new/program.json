@@ -1,0 +1,10 @@
+{
+  "id": "bs_amx",
+  "name": "bs_amx",
+  "description": "description",
+  "envvars": {},
+  "disabled": false,
+  "scope": "",
+  "provider": "python",
+  "script": "index.py"
+}

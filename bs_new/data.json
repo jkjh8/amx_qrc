@@ -1,0 +1,15 @@
+{
+  "main_server_ip_addr": "10.20.0.191",
+  "max_page_time": 30,
+  "power_on_delay": 5,
+  "devices": [
+    {
+      "id": 0,
+      "name": "",
+      "ipaddress": "10.20.0.194",
+      "qsys": "10.20.0.21",
+      "num_of_relays": 8,
+      "zones": []
+    }
+  ]
+}
