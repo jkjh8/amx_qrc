@@ -5,7 +5,8 @@ from mojo import context
 from modules.UIMenu import UIMenu
 
 from bs import init_udp_server, get_data_from_server
-from qsys.qsys import init_qsys
+from qsys.qsys import init_qsys, tp_add_zone_select_btn
+from qsys.buttons import init_buttons_evt
 from config import logger, venue_name, zone_name
 from tp import *
 from relay import check_relay
@@ -21,6 +22,8 @@ def tp_online(_):
                 tp_set_btn_text_unicode(DV_TP, 2, zone_id + 20 + 1, convert_text_to_unicode(zone_name))
                 
         btn_refresh_all_zone_selected_btn()
+        tp_add_zone_select_btn()
+        init_buttons_evt()
     except Exception as e:
         logger.error(f"tp_online() {e=}")
     
