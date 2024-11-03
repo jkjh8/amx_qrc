@@ -19,7 +19,7 @@ class QRC:
                 self.connected = True
                 threading.Thread(target=self.recv, daemon=True).start()
                 threading.Thread(target=self.queue_send, daemon=True).start()
-                threading.Thread(target=self.noOp, daemon=True).start()
+                # threading.Thread(target=self.noOp, daemon=True).start()
                 print("qrc socket Connected\n")
                 self.set_pa_callback()
             except Exception as e:
@@ -61,9 +61,9 @@ class QRC:
                     self.connect()
                     break
             except Exception as e:
-                self.connected = False
-                self.callback(f"qrc recv error {e}")
-                self.connect()
+                if e.errno != 106:
+                    self.connected = False
+                    self.connect()
                 break
 
     def _callback(self):

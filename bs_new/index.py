@@ -5,7 +5,7 @@ from mojo import context
 from modules.UIMenu import UIMenu
 
 from bs import init_udp_server, get_data_from_server
-from qsys.qsys import init_qsys, tp_add_zone_select_btn
+from qsys.qsys import init_qsys
 from qsys.buttons import init_buttons_evt
 from config import logger, venue_name, zone_name
 from tp import *
@@ -22,8 +22,8 @@ def tp_online(_):
                 tp_set_btn_text_unicode(DV_TP, 2, zone_id + 20 + 1, convert_text_to_unicode(zone_name))
                 
         btn_refresh_all_zone_selected_btn()
-        tp_add_zone_select_btn()
         init_buttons_evt()
+        
     except Exception as e:
         logger.error(f"tp_online() {e=}")
     
@@ -48,7 +48,8 @@ if __name__ == "__main__":
     # server start
     relay_on_air_poll = context.services.get("timeline")
     relay_on_air_poll.expired.listen(check_relay)
-    relay_on_air_poll.start([5000], True, -1)
+    relay_on_air_poll.start([100000], True, -1)
+    
     context.run(globals())
 # ---------------------------------------------------------------------------- #
 # ---------------------------------------------------------------------------- #

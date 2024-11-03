@@ -3,8 +3,8 @@ from tp import *
 
 def check_on_air():
     global page
-    page["qrc_is_on_air"] = any(zone is True for zone in page["qrc_zone_on_air_status"])
-    return page["qrc_is_on_air"]
+    page["qrc_onair"] = any(zone is True for zone in qrc_zones_onair)
+    return page["qrc_onair"]
 
 
 def qrc_parser(data):
@@ -21,22 +21,22 @@ def qrc_parser(data):
             if data.get("method") == "PA.PageStatus":
                 if ("params", "PageID") in data.items():
                     page["qrc_page_status"] = data["params"]["State"] + "-" +data["params"]["SubState"]
+                    logger.info("update qrc_page_status = $s" % page["qrc_page_status"])
             elif data.get("method") == "PA.ZoneStatus":
                 if "params" in data.keys():
                     zone = data["params"]["Zone"]
                     active = data["params"]["Active"]
-                    page["qrc_zone_on_air_status"][zone - 1] = active
-                    page["qrc_is_on_air"] = check_on_air()
-                    if not page["qrc_is_on_air"]:
+                    qrc_zones_onair[zone - 1] = active
+                    page["qrc_onair"] = check_on_air()
+                    if not page["qrc_onair"]:
                         tp_send_command(DV_TP, 2, "^PPF-popup_onair")
                     btn_refresh_is_on_air_btn()
                     btn_refresh_zone_on_air_btn()
+                    logger.info("update qrc_zones_onair_status")
         elif "error" in data:
             print(f"qrc_parser recv Error {data=}")
     except Exception as e:
         print(f"qrc_parser() {e=}")
-    print(f"qrc_parser() {data=}")
-    
     
 def update_zone_gain_mute(controls):
     global page
@@ -49,13 +49,14 @@ def update_zone_gain_mute(controls):
                 return
             c_idx
             if c_type == "gain":
-                page["qrc_zone_gain_status"][c_idx - 1] = float(control["Value"])
+                qrc_zones_gain[c_idx - 1] = float(control["Value"])
                 tp_update_gain(c_idx)
+                logger.info(f"update_qrc_zone_gain")
                 
             elif c_type == "mute":
-                page["qrc_zone_mute_status"][c_idx - 1] = control["Value"] == 1.0
-                tp_set_button(DV_TP, 2, 100 + c_idx, page["qrc_zone_mute_status"][c_idx -1])
+                qrc_zones_mute[c_idx - 1] = control["Value"] == 1.0
+                tp_set_button(DV_TP, 2, 100 + c_idx, qrc_zones_mute[c_idx -1])
+                logger.info(f"update_qrc_zone_mute")
                 
     except Exception as e:
         print(f"update_zone_gain_mute() {e=}")
-    print(f"update_zone_gain_mute() {controls=}")

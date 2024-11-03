@@ -30,11 +30,11 @@ def btn_refresh_chime_btn():
 def btn_refresh_zone_on_air_btn():
     global page
     for idx in range(1, page["num_of_zones"] + 1):
-        tp_set_button(DV_TP, 2, idx + 50, page["qrc_zone_on_air_status"][idx - 1])
+        tp_set_button(DV_TP, 2, idx + 50, qrc_zones_onair[idx - 1])
 
 def btn_refresh_zone_selected_btn(idx):
     global page
-    tp_set_button(DV_TP, 2, idx + 20, page["tp_qrc_on_air_zone_list"][idx - 1])
+    tp_set_button(DV_TP, 2, idx + 20, qrc_zones[idx - 1])
 
 def btn_refresh_all_zone_selected_btn():
     global page
@@ -43,12 +43,12 @@ def btn_refresh_all_zone_selected_btn():
         
 def btn_refresh_is_on_air_btn():
     global page
-    tp_set_button(DV_TP, 2, 11, page["qrc_is_on_air"])
-    tp_set_button(DV_TP, 2, 12, not page["qrc_is_on_air"])
+    tp_set_button(DV_TP, 2, 11, page["qrc_onair"])
+    tp_set_button(DV_TP, 2, 12, not page["qrc_onair"])
     
 def tp_update_gain(idx):
     global page
-    DV_TP.port[2].send_command("^TXT-" + str(100 + idx) + ",0," + str(page["qrc_zone_gain_status"][idx - 1]) + "dB")
+    DV_TP.port[2].send_command("^TXT-" + str(100 + idx) + ",0," + str(qrc_zones_gain[idx - 1]) + "dB")
     
 def tp_add_watcher(tp, port, btn, callback):
     """
