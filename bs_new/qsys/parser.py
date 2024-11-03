@@ -32,7 +32,6 @@ def qrc_parser(data):
                         tp_send_command(DV_TP, 2, "^PPF-popup_onair")
                     btn_refresh_is_on_air_btn()
                     btn_refresh_zone_on_air_btn()
-                    logger.info("update qrc_zones_onair_status")
         elif "error" in data:
             print(f"qrc_parser recv Error {data=}")
     except Exception as e:
@@ -51,12 +50,10 @@ def update_zone_gain_mute(controls):
             if c_type == "gain":
                 qrc_zones_gain[c_idx - 1] = float(control["Value"])
                 tp_update_gain(c_idx)
-                logger.info(f"update_qrc_zone_gain")
                 
             elif c_type == "mute":
                 qrc_zones_mute[c_idx - 1] = control["Value"] == 1.0
                 tp_set_button(DV_TP, 2, 100 + c_idx, qrc_zones_mute[c_idx -1])
-                logger.info(f"update_qrc_zone_mute")
                 
     except Exception as e:
         print(f"update_zone_gain_mute() {e=}")
