@@ -1,9 +1,6 @@
-# ---------------------------------------------------------------------------- #
-
 import json
 from mojo import context
 from modules.UIMenu import UIMenu
-
 from bs import init_udp_server, get_data_from_server
 from qsys.qsys import init_qsys
 from qsys.buttons import init_buttons_evt
@@ -51,5 +48,3 @@ if __name__ == "__main__":
     relay_on_air_poll.start([100000], True, -1)
     
     context.run(globals())
-# ---------------------------------------------------------------------------- #
-# ---------------------------------------------------------------------------- #

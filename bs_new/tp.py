@@ -1,15 +1,6 @@
-# ---------------------------------------------------------------------------- #
-# from config import venue_name, zone_name, DV_TP
 from modules.lib_tp import *
 from config import *
-# from mojo import context
-# from UIMenu import UIMenu
 
-# ---------------------------------------------------------------------------- #
-# DV_MUSE = context.devices.get("idevice")
-
-
-# ---------------------------------------------------------------------------- #
 def tp_set_btn_show_hide(tp, port, addr, state):
     state_str = 1 if state else 0
     tp.port[port].send_command(f"^SHO-{addr},{state_str}")

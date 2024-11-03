@@ -4,7 +4,6 @@ import http.client
 def set_relay(idx, state_bool):
     global DV_RELAYS, num_of_relays, logger
     if idx >= 1 and idx <= num_of_relays:
-        # print("set_relay() {} {}".format(idx, state_bool))
         DV_RELAYS[idx - 1].state.value = state_bool
         logger.info("set_relay() {} {}".format(idx, state_bool))
         return state_bool

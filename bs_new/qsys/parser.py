@@ -6,7 +6,6 @@ def check_on_air():
     page["qrc_onair"] = any(zone is True for zone in qrc_zones_onair)
     return page["qrc_onair"]
 
-
 def qrc_parser(data):
     global page
     try:

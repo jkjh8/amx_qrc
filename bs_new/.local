@@ -36712,6 +36712,169 @@
                     "md5": "bfd71f03769a81a1921eab3ddb291c62"
                 }
             ]
+        },
+        {
+            "date": "2024-11-03T12:59:27.915Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\config.py",
+                    "md5": "21591f989b1fd63a101c5405a7e03bde"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\data.json",
+                    "md5": "e0a1e8a216d04ff86c73ae66d68c3d3e"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\index.py",
+                    "md5": "556a32cc31791edb9d95f01670406339"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\modules\\qrc2.py",
+                    "md5": "24825bd10c200ffd4e8f07e786051dda"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\program.json",
+                    "md5": "2602bb47de91ea1e41bf04c25823590d"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\qsys\\parser.py",
+                    "md5": "07f286b26b71b9fee94034740d7b4024"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "b24b2a28b5dfac8827e45ca2f28dc30e"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\qsys\\qsys.py",
+                    "md5": "a903d689f79a0db785a59bb620ddc44c"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\relay.py",
+                    "md5": "b41dadd8b78f150639689ec6a2bfe02a"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\tp.py",
+                    "md5": "77d7583cbd44b249c4195a70b6f9ea68"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\jkjh8\\바탕 화면\\dev\\amx\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
         }
     ]
 }
