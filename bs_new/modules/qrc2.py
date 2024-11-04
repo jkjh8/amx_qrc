@@ -23,7 +23,7 @@ class QRC:
                 print("qrc socket Connected\n")
                 self.set_pa_callback()
             except Exception as e:
-                self.callback(f"qrc connect error {e}")
+                print(f"qrc connect error {e}")
                 self.connected = False
                 time.sleep(5)
                 
@@ -45,7 +45,7 @@ class QRC:
             except queue.Empty:
                 continue
             except Exception as e:
-                self.callback(f"qrc queue_send error {e}")
+                print(f"qrc queue_send error {e}")
             finally:
                 time.sleep(0.1)
 
@@ -57,7 +57,7 @@ class QRC:
                     self.rt_queue_send(data)
                 else:
                     self.connected = False
-                    print("qrc recv error: connection closed by the server")
+                    print("qrc recv error: connection closed by the server\n")
                     self.connect()
                     break
             except Exception as e:
@@ -80,12 +80,11 @@ class QRC:
                 if i == 0:
                     self.buffer += part
                 else:
-                    self.rt_queue.put(json.loads(self.buffer.decode('utf-8')))
+                    self.callback(json.loads(self.buffer.decode('utf-8')))
                     self.buffer = part
-                    self._callback()
         except Exception as e:
             self.buffer = b''
-            self.callback(f"qrc rt_queue_send error {e}")
+            print(f"qrc rt_queue_send error {e}")
             
     def noOp(self):
         while True:

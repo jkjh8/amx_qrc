@@ -29,7 +29,7 @@ def qrc_set_start_onair(qrc, zones):
             "Station": 2,
             "Start": True,
             "Preamble": "Chime ascending triple.wav" if page["qrc_chime"] else "",
-            "MaxPageTime": page["qrc_max_page_time"],
+            "MaxPageTime": int(page["qrc_max_page_time"]),
         },
     )
     page["qrc_onair"] = True
