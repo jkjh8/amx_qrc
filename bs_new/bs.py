@@ -91,6 +91,7 @@ def get_data_from_server():
         if data_edit:
             with open("default_data.json", "w") as f:
                 json.dump(default_data, f, indent=4)
+            logger.info("update default_data.json")
         logger.info(f"get_data_from_server")
     except Exception as e:
         logger.error(f"get_data_from_server() Exception e={e}")

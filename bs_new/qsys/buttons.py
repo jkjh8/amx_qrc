@@ -5,6 +5,7 @@ from qsys.qsys import qrc
 from qsys.qrc_comm import *
 
 qrc_on_air_timeline = None
+qrc_offair_timeline = None
 
 def btn_refresh_page_time_count():
     global page
@@ -43,8 +44,11 @@ def btn_reset_all_relay(btn):
     try:
         if btn.value == False:
             return
-        set_all_relay(False)
-        barix_set_relay_all(False)
+        on_air_zones = qrc_get_on_air_zone_idx_list()
+        #relay on
+        barix_set_relays(on_air_zones, True)
+        for idx in on_air_zones:
+            set_relay(idx, True)
     except Exception as e:
         print(f"btn_reset_all_relay() Exception {e=}")
 
@@ -53,16 +57,28 @@ def qrc_stop_on_air():
     if qrc_on_air_timeline is not None:
         try:
             qrc_on_air_timeline.stop()
+            qrc_offair_timeline.stop()
         except Exception as e:
             print(f"qrc_stop_on_air() Exception {e=}")
         finally:
             qrc_on_air_timeline = None
+            qrc_offair_timeline = None
+
+def qrc_stop_offair_relays(_):
+    try:
+        set_all_relay(False)
+        barix_set_relay_all(False)
+    except Exception as e:
+        print(f"qrc_stop_offair_relays() Exception {e=}")
 
 # qrc onair timeline evt
 def _qrc_on_air(_):
     global page
     try:
         qrc_set_start_onair(qrc, qrc_get_on_air_zone_idx_list())
+        qrc_offair_timeline = context.services.get("timeline")
+        qrc_offair_timeline.expired.listen(qrc_stop_offair_relays)
+        qrc_offair_timeline.start([(page["qrc_max_page_time"] + 5) * 1000], False, 0)
     except Exception as e:
         print(f"_qrc_on_air() Exception {e=}")
 
