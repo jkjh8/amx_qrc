@@ -1,4 +1,5 @@
 from mojo import context
+import time
 from config import *
 from tp import *
 # from lib_tp import *
@@ -35,5 +36,9 @@ def init_qsys():
     
     qrc_check_event_poll.expired.listen(qrc_check_zone_props)
     tp_btn_refresh_loop.expired.listen(_btn_refresh_is_on_air_btn)
-    qrc_check_event_poll.start([40000], True, -1)
+    qrc_check_event_poll.start([500000], True, -1)
     tp_btn_refresh_loop.start([1000], True, -1)
+    
+    time.sleep(3)
+    qrc_check_zone_props(None)
+    

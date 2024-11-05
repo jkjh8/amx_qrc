@@ -1,4 +1,4 @@
-import json
+import json, time, threading
 from mojo import context
 from modules.UIMenu import UIMenu
 from bs import init_udp_server, get_data_from_server
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     # udp server start
     init_udp_server(9000)
     # qsys start
-    init_qsys()
+    threading.Thread(target=init_qsys, daemon=True).start()
     # tp online
     DV_TP.online(tp_online)
     # bs check poll

@@ -38179,6 +38179,3755 @@
                     "md5": "bfd71f03769a81a1921eab3ddb291c62"
                 }
             ]
+        },
+        {
+            "date": "2024-11-05T00:03:21.647Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "526ee681425a193b8ef1d936a1d86282"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "a903d689f79a0db785a59bb620ddc44c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:06:18.798Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "c60ea3724508e6dc8ebbf0b14dae2481"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "a903d689f79a0db785a59bb620ddc44c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:08:04.764Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "3af7438681570bfc94bb3e67192f4971"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "a903d689f79a0db785a59bb620ddc44c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:12:08.216Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "118e590faca63167ed3a74ef9d9a026b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "a903d689f79a0db785a59bb620ddc44c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:14:13.765Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "0fa2d26ec6ac83850befff1c3e9dd374"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "a903d689f79a0db785a59bb620ddc44c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:14:31.670Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "54b31a4ad8c06bc2626d97f6ddf12b07"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "a903d689f79a0db785a59bb620ddc44c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:24:54.204Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "0049a8d884f18a638482f4cd9f4dea47"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:27:29.026Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "6e9e3f0a33f1e05e05ce90cf0a7b5310"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:29:21.438Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "60f5441151b114c0070003da88cef3d3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:31:48.650Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "264f0dee973623f207363c8cf642a2b7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:34:14.351Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "396dda9a56f20c966c227103a490686d"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:36:59.463Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "713eece8b103270bae2718c25ba3cdf4"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:38:33.399Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "828ffe4cca9c2978777c4c57dd13e2a8"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:41:16.418Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "861fb21e900e389e3404fb4e1361124e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:43:31.582Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "046243fe6505e7445179400799273f73"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:44:14.135Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "6c1df00ecd76fa7a09ca055aa21430cb"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:47:46.753Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "a3f40837adcd3dc12acdca54a8d11a27"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:50:58.294Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "39911b0c9d0c5430f950488ffcbfa58d"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:53:12.193Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "e90c732b8498a5b8b593ac8b997eb96b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:56:33.032Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "00fdc30d6e2075cda6d1fe1039cc5073"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "91aa66d61c8a444403e452d34d8805b8"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "1639eb3964f7401dafa4803c946f4d84"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T00:58:45.807Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "522f318150bc5dc6d621089cf111169c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "91aa66d61c8a444403e452d34d8805b8"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "f7717a9c1acd65afe48633dbb32738bb"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T01:01:07.901Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "bbab217ea099be970d96b0216a8795a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "437a646e63fa5ed433bcd0dc51dcf9d1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "d50822ec394fbd32915e6c9f8042f40a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-05T01:04:00.153Z",
+            "program": "bs_new",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\bs.py",
+                    "md5": "af99897dd428f6b66402d0162c8437d5"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\config.py",
+                    "md5": "ad042d745bcd1c87cf75b2111e3e0c29"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\data.json",
+                    "md5": "a7e84d3f19e5ef549e9732626fd9cce1"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\index.py",
+                    "md5": "bbab217ea099be970d96b0216a8795a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\http_funtions.py",
+                    "md5": "4c9b457d645962ba98cbe84d8eb909b0"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\lib_tp.py",
+                    "md5": "d8902c02050cc7036e3fa21e3ae0f3a9"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\qrc2.py",
+                    "md5": "684d65e6dd23a7e6975b851106cc2453"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\udp.py",
+                    "md5": "d1df2606d52caecb3d78f11b3a33c84c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\modules\\UIMenu.py",
+                    "md5": "660d3c9044ddddec2daf2c36aae3f17a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\program.json",
+                    "md5": "6ed8f74ea7053c1c97be95c55166d39c"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\buttons.py",
+                    "md5": "6602fdfc549da79126f9387c40c75dd7"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\parser.py",
+                    "md5": "140d2ae19726bd2c0b42d92a9291f5ab"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qrc_comm.py",
+                    "md5": "68af9ed9ff748e83ace1c44e7c6a0006"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\qsys\\qsys.py",
+                    "md5": "d50822ec394fbd32915e6c9f8042f40a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\relay.py",
+                    "md5": "33d9f6a5601eb2092f80905f77a5a292"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\tp.py",
+                    "md5": "6cfc50b2c7d79f2af5f0279412a9573a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-310.pyc",
+                    "md5": "2c8bcc934e72ed057e1cd77a56610321"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\barix.cpython-38.pyc",
+                    "md5": "4ef07041f4d61cfdc2fe55f35398eb38"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-310.pyc",
+                    "md5": "1b30b8d3e2cb6c69e52cbe83aea02abd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\bs.cpython-38.pyc",
+                    "md5": "4230612104cbb701f193da3068552eb6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-310.pyc",
+                    "md5": "5220c988a80d2bffd95747c153cf8195"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\ButtonHandler.cpython-38.pyc",
+                    "md5": "65f9e55158c618c77d1342c645dd9ee3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-310.pyc",
+                    "md5": "1fa4cc14c1760be667b402e3b7f4f6fd"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\config.cpython-38.pyc",
+                    "md5": "6bbfb9142805d6220af8108d47d8b952"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-310.pyc",
+                    "md5": "6f38b7c3c79cdf32e96885dcefb27b6e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\EventManager.cpython-38.pyc",
+                    "md5": "70c8ca3bab35899aa870d678a7f2e6fc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-310.pyc",
+                    "md5": "42c7d406342a4c8e753e9f81c8b748bc"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\lib_tp.cpython-38.pyc",
+                    "md5": "cff1cdfbb87c90581df03cba0785247b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-310.pyc",
+                    "md5": "f685fa517ae13d27ca4e28e5c975bd50"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\NetworkManager.cpython-38.pyc",
+                    "md5": "67ff917b9c48521577cd350829e7d12a"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-310.pyc",
+                    "md5": "c5dfa339b66411d1635a94fcb0110f90"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\qrc.cpython-38.pyc",
+                    "md5": "61a83285688f5088a4f93238ccc9c5af"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-310.pyc",
+                    "md5": "e571d92bd1714ab235a86b14b6095b76"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\relay.cpython-38.pyc",
+                    "md5": "510c777fb86f4634031b6b6f7ebec2a3"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-310.pyc",
+                    "md5": "a4bf017f7bdfd6037e4ee7896dc9c77b"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\tp.cpython-38.pyc",
+                    "md5": "5ae32eef686eca16d7fafec3532a3420"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-310.pyc",
+                    "md5": "9274269f4d31366cce314d89acd3c037"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\UIMenu.cpython-38.pyc",
+                    "md5": "cde561b68f9744946906aa4af520d483"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\bs_amx\\amx_qrc\\bs_new\\__pycache__\\yeoul.cpython-38.pyc",
+                    "md5": "bfd71f03769a81a1921eab3ddb291c62"
+                }
+            ]
         }
     ]
 }

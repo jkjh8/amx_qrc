@@ -10,22 +10,29 @@ class QRC:
         self.connected = False
         self.queue = queue.Queue()
         self.rt_queue = queue.Queue()
-        self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
+        self.send_someting = False
+        
     def connect(self):
         while not self.connected:
             try:
+                self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 self.sock.connect((self.host, self.port))
                 self.connected = True
                 threading.Thread(target=self.recv, daemon=True).start()
                 threading.Thread(target=self.queue_send, daemon=True).start()
-                # threading.Thread(target=self.noOp, daemon=True).start()
+                threading.Thread(target=self.noOp, daemon=True).start()
                 print("qrc socket Connected\n")
                 self.set_pa_callback()
+                break
             except Exception as e:
                 print(f"qrc connect error {e}")
+                if e.errno == 106:
+                    self.connected = True
+                    threading.Thread(target=self.recv, daemon=True).start()
+                    break
                 self.connected = False
                 time.sleep(5)
+
                 
     def set_pa_callback(self):
         self.send('zone-status-configure', 'PA.ZoneStatusConfigure', { "Enabled": True })
@@ -41,6 +48,8 @@ class QRC:
                 if not self.connected:
                     self.connect()
                 data = self.queue.get(timeout=0.1)
+                print(f"qrc queue_send {data}")
+                self.send_someting = True
                 self.sock.send(data)
             except queue.Empty:
                 continue
@@ -53,25 +62,31 @@ class QRC:
         while True:
             try:
                 data = self.sock.recv(self.buffer_size)
+                print (f"qrc recv {data}")
                 if data:
                     self.rt_queue_send(data)
                 else:
-                    self.connected = False
                     print("qrc recv error: connection closed by the server\n")
+                    self.sock.close()
+                    time.sleep(5)
+                    self.connected = False
                     self.connect()
                     break
             except Exception as e:
-                if e.errno != 106:
-                    self.connected = False
-                    self.connect()
+                print(f"qrc recv error {e}")
+                # if e.errno != 106:
+                self.connected = False
+                self.connect()
                 break
 
     def _callback(self):
         try:
             while not self.rt_queue.empty() and self.connected:
-                self.callback(self.rt_queue.get())
+                rt = self.rt_queue.get()
+                print(f"qrc _callback {rt}")
+                self.callback(rt)
         except Exception as e:
-            self.callback(f"qrc _callback error {e}")
+            print(f"qrc _callback error {e}")
             
     def rt_queue_send(self, data):
         try:
@@ -81,6 +96,7 @@ class QRC:
                     self.buffer += part
                 else:
                     self.callback(json.loads(self.buffer.decode('utf-8')))
+                    self.send_someting = True
                     self.buffer = part
         except Exception as e:
             self.buffer = b''
@@ -88,9 +104,10 @@ class QRC:
             
     def noOp(self):
         while True:
-            time.sleep(50)
-            if self.queue.empty():
+            if self.send_someting:
                 self.send('noOp', 'NoOp', {})
+                self.send_someting = False
+            time.sleep(50)
 
     def close(self):
         self.sock.close()
