@@ -23,8 +23,10 @@ qrc_zones = [False] * num_of_zones
 qrc_zones_gain = [0.0] * num_of_zones
 qrc_zones_mute = [False] * num_of_zones
 qrc_zones_onair = [False] * num_of_zones
+
 # qrc
 page = {
+    "selected_menu": 1,
     "num_of_zones": num_of_zones,
     "qrc_page_id": 0,
     "qrc_chime": True,

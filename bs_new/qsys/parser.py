@@ -7,7 +7,7 @@ def check_on_air():
     return page["qrc_onair"]
 
 def qrc_parser(data):
-    global page
+    global page, qrc_zones_onair
     try:
         if "result" in data:
             if data.get("id") == "page-submit":
@@ -28,9 +28,14 @@ def qrc_parser(data):
                     qrc_zones_onair[zone - 1] = active
                     page["qrc_onair"] = check_on_air()
                     if not page["qrc_onair"]:
-                        tp_send_command(DV_TP, 2, "^PPF-popup_onair")
-                    btn_refresh_is_on_air_btn()
-                    btn_refresh_zone_on_air_btn()
+                        DV_TP.port[2].send_commnad("^PPF-popup_onair")
+                    # onair btn
+                    DV_TP.port[2].channel[11].value = page["qrc_onair"]
+                    DV_TP.port[2].channel[12].value = not page["qrc_onair"]
+                    # zones
+                    for idx in range(1, page["num_of_zones"] + 1):
+                        DV_TP.port[2].channel[idx + 50].value = qrc_zones_onair[idx - 1]
+
         elif "error" in data:
             print(f"qrc_parser recv Error {data=}")
     except Exception as e:
@@ -47,12 +52,13 @@ def update_zone_gain_mute(controls):
                 return
             c_idx
             if c_type == "gain":
+                print(f"update_zone_gain_mute() {control=}")
                 qrc_zones_gain[c_idx - 1] = float(control["Value"])
-                tp_update_gain(c_idx)
+                DV_TP.port[2].send_command("^TXT-" + str(100 + c_idx) + ",0," + control["String"])
                 
             elif c_type == "mute":
                 qrc_zones_mute[c_idx - 1] = control["Value"] == 1.0
-                tp_set_button(DV_TP, 2, 100 + c_idx, qrc_zones_mute[c_idx -1])
+                DV_TP.port[2].channel[100 + c_idx].value = qrc_zones_mute[c_idx - 1]
                 
     except Exception as e:
         print(f"update_zone_gain_mute() {e=}")

@@ -7,7 +7,7 @@
       "id": 0,
       "name": "본사",
       "ipaddress": "10.20.0.194",
-      "qsys": "10.20.0.192",
+      "qsys": "10.20.0.21",
       "num_of_relays": 8,
       "zones": [],
       "barix": {}
