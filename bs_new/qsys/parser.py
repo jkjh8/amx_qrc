@@ -1,10 +1,4 @@
 from config import *
-from tp import *
-
-def check_on_air():
-    global page
-    page["qrc_onair"] = any(zone is True for zone in qrc_zones_onair)
-    return page["qrc_onair"]
 
 def qrc_parser(data):
     global page, qrc_zones_onair
@@ -26,7 +20,7 @@ def qrc_parser(data):
                     zone = data["params"]["Zone"]
                     active = data["params"]["Active"]
                     qrc_zones_onair[zone - 1] = active
-                    page["qrc_onair"] = check_on_air()
+                    page["qrc_onair"] = any(zone is True for zone in qrc_zones_onair)
                     if not page["qrc_onair"]:
                         DV_TP.port[2].send_commnad("^PPF-popup_onair")
                     # onair btn
@@ -52,7 +46,6 @@ def update_zone_gain_mute(controls):
                 return
             c_idx
             if c_type == "gain":
-                print(f"update_zone_gain_mute() {control=}")
                 qrc_zones_gain[c_idx - 1] = float(control["Value"])
                 DV_TP.port[2].send_command("^TXT-" + str(100 + c_idx) + ",0," + control["String"])
                 

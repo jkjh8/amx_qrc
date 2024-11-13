@@ -1,11 +1,9 @@
 import json, time, threading
 from mojo import context
-from modules.UIMenu import UIMenu
 from bs import init_udp_server, get_data_from_server
 from qsys.qsys import init_qsys
-from qsys.buttons import init_buttons_evt, btn_refresh_page_time_count, init_UI
-from config import logger, venue_name, zone_name
-from tp import *
+from qsys.buttons import init_buttons_evt, init_UI
+from config import DV_TP, logger, venue_name, zone_name
 from relay import check_relay
 
 def tp_online(_):
@@ -43,7 +41,7 @@ if __name__ == "__main__":
     relay_on_air_poll = context.services.get("timeline")
     relay_on_air_poll.expired.listen(check_relay)
     relay_on_air_poll.start([100000], True, -1)
-    # UIMenu(DV_TP)
+    # menu bottons
     init_UI()
     
     init_buttons_evt()

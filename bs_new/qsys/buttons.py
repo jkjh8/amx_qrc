@@ -1,50 +1,17 @@
 from config import *
-from tp import *
 from relay import set_all_relay, set_relay, barix_set_relays, barix_set_relay, barix_set_relay_all
 from qsys.qsys import qrc
 from qsys.qrc_comm import *
 
 qrc_on_air_timeline = None
 qrc_offair_timeline = None
-
-def btn_refresh_page_time_count():
-    global page
-    tp_send_command(DV_TP, 2, "^TXT-5,0," + str(page["qrc_max_page_time"]) + "s")
-
-def qrc_get_on_air_zone_idx_list():
-    global page, qrc_zones
-    on_air_zone_list = [i + 1 for i, zone_enabled in enumerate(qrc_zones) if zone_enabled]
-    return on_air_zone_list
-
-def toggle_chime(btn):
-    global page
-    try:
-        if btn.value == False:
-            return
-        page["qrc_chime"] = not page["qrc_chime"]
-        tp_set_button(DV_TP, 2, 7, page["qrc_chime"])
-    except Exception as e:
-        print(f"toggle_chime() Exception {e=}")
-
-def qrc_page_time(btn):
-    global page
-    try:
-        if btn.value == False:
-            return
-        btnId = int(btn.id)
-        if btnId == 3:
-            page["qrc_max_page_time"] = min(300, page["qrc_max_page_time"] + 10)
-        elif btnId == 4:
-            page["qrc_max_page_time"] = max(10, page["qrc_max_page_time"] - 10)
-        btn_refresh_page_time_count()
-    except Exception as e:
-        print(f"qrc_page_time() Exception {e=}")
     
 def btn_reset_all_relay(btn):
+    global page, qrc_zones
     try:
         if btn.value == False:
             return
-        on_air_zones = qrc_get_on_air_zone_idx_list()
+        on_air_zones = [i + 1 for i, zone_enabled in enumerate(qrc_zones) if zone_enabled]
         #relay on
         barix_set_relays(on_air_zones, True)
         for idx in on_air_zones:
@@ -73,9 +40,9 @@ def qrc_stop_offair_relays(_):
 
 # qrc onair timeline evt
 def _qrc_on_air(_):
-    global page
+    global page, qrc_zones
     try:
-        qrc_set_start_onair(qrc, qrc_get_on_air_zone_idx_list())
+        qrc_set_start_onair(qrc, [i + 1 for i, zone_enabled in enumerate(qrc_zones) if zone_enabled])
         qrc_offair_timeline = context.services.get("timeline")
         qrc_offair_timeline.expired.listen(qrc_stop_offair_relays)
         qrc_offair_timeline.start([(page["qrc_max_page_time"] + 5) * 1000], False, 0)
@@ -88,9 +55,9 @@ def btn_evt_on_air():
         if page["qrc_onair"]:
             return
         qrc_stop_on_air()
-        on_air_zones = qrc_get_on_air_zone_idx_list()
+        on_air_zones = [i + 1 for i, zone_enabled in enumerate(qrc_zones) if zone_enabled]
         if not on_air_zones:
-            tp_send_command(DV_TP, 2, "^PPN-popup_nozone")
+            DV_TP.port[2].send_command("^PPN-popup_nozone")
             return
         #relay on
         barix_set_relays(on_air_zones, True)
@@ -101,7 +68,7 @@ def btn_evt_on_air():
         qrc_on_air_timeline.expired.listen(_qrc_on_air)
         qrc_on_air_timeline.start([page["power_on_delay"] * 1000], False, 0)
         # onair popup
-        tp_send_command(DV_TP, 2, "^PPN-popup_onair")
+        DV_TP.port[2].send_command("^PPN-popup_onair")
     except Exception as e:
         print(f"qrc_on_air() Exception {e=}")
 
@@ -111,12 +78,12 @@ def btn_evt_off_air():
     try:
         if page["qrc_page_id"]:
             qrc_set_stop_on_air(qrc)
-        zone_idx_list = qrc_get_on_air_zone_idx_list()
+        zone_idx_list = [i + 1 for i, zone_enabled in enumerate(qrc_zones) if zone_enabled]
         barix_set_relays(zone_idx_list, False)
         for idx in zone_idx_list:
             set_relay(idx, False)
         page["qrc_onair"] = False
-        tp_send_command(DV_TP, 2, "^PPN-popup_offair")
+        DV_TP.port[2].send_command("^PPN-popup_offair")
     except Exception as e:
         print(f"qrc_off_air() Exception {e=}")
         
@@ -126,7 +93,7 @@ def qrc_toggle_selected_zone_list(btn):
         i = int(btn.id) - 20
         if i >= 0 and i <= page["num_of_zones"]:
             qrc_zones[i - 1] = not qrc_zones[i - 1]
-            tp_set_button(DV_TP, 2, i + 20, qrc_zones[i - 1])
+            DV_TP.port[2].channel[i + 20].value = qrc_zones[i - 1]
             
 def btn_evt_toggle_zone_mute(btn):
     global page, qrc_zones_mute
@@ -213,14 +180,21 @@ def _swich_menu(btn):
     try:
         if btn.value == False:
             return
-        menu_id = int(btn.id) % 10
-        page["selected_menu"] = "{0:0>3d}".format(menu_id)
-        DV_TP.port[1].send_command(f"^PPN-{page['selected_menu']}")
-        for idx in range(11, 15):
-            if idx == int(btn.id):
-                DV_TP.port[1].channel[idx].value = True
-            else:
+        if int(btn.id) == 100:
+            DV_TP.port[1].send_command("^PPX")
+            print("close all popoup")
+            for idx in range(11, 15):
                 DV_TP.port[1].channel[idx].value = False
+            return
+        else:
+            menu_id = int(btn.id) % 10
+            page["selected_menu"] = "{0:0>3d}".format(menu_id)
+            DV_TP.port[1].send_command(f"^PPN-{page['selected_menu']}")
+            for idx in range(11, 15):
+                if idx == int(btn.id):
+                    DV_TP.port[1].channel[idx].value = True
+                else:
+                    DV_TP.port[1].channel[idx].value = False
     except Exception as e:
         print(f"_swich_menu() Exception {e=}")
         
@@ -229,6 +203,6 @@ def init_UI():
         for idx in range(11, 15):
             DV_TP.port[1].button[idx].watch(_swich_menu)
             DV_TP.port[1].channel[idx].value = False
-        # DV_TP.port[1].channel[11].value = True
+        DV_TP.port[1].button[100].watch(_swich_menu)
     except Exception as e:
         print(f"init_UI() Exception {e=}")

@@ -1,6 +1,5 @@
 import json, urllib.parse
 from config import *
-from tp import tp_set_btn_text_unicode, convert_text_to_unicode
 from modules.udp import UdpServer
 from relay import set_relay, barix_set_relay_all, barix_set_relays
 from modules.http_funtions import get_https
@@ -66,7 +65,7 @@ def get_data_from_server():
             local_device = data["qsys"]
             if local_device.get("name") and venue_name != local_device["name"]:
                 venue_name = local_device["name"]
-                tp_set_btn_text_unicode(DV_TP, 2, 1, convert_text_to_unicode(text=venue_name))
+                DV_TP.port[2].send_command(f"^UNI-1,0,"+"".join(format(ord(char), "04X") for char in venue_name))
                 default_data["devices"][local_id]["name"] = venue_name
             if "ZoneStatus" in local_device:
                 zones = [zone["name"] if zone["name"] else f"지역-{idx + 1}" for idx, zone in enumerate(local_device["ZoneStatus"])]
@@ -76,7 +75,7 @@ def get_data_from_server():
                     zone_name = zones
                     data_edit = True
                     for idx, zone in enumerate(zone_name):
-                        tp_set_btn_text_unicode(DV_TP, 2, idx + 21, convert_text_to_unicode(zone))
+                        DV_TP.port[2].send_command(f"^UNI-{idx + 21},0,"+"".join(format(ord(char), "04X") for char in zone))
                     default_data["devices"][local_id]["zones"] = zone_name
                     default_data["devices"][local_id]["num_of_zones"] = len(zone_name)
 

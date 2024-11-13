@@ -1,7 +1,7 @@
 import socket, threading, queue, time,json
 
 class QRC:
-    def __init__(self, host,callback):
+    def __init__(self, host, callback):
         self.host = host
         self.port = 1710
         self.buffer = b''
@@ -12,7 +12,7 @@ class QRC:
         self.rt_queue = queue.Queue()
         self.send_someting = False
         
-    def connect(self):
+    def connect(self, callback = None):
         while not self.connected:
             try:
                 self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -23,6 +23,8 @@ class QRC:
                 threading.Thread(target=self.noOp, daemon=True).start()
                 print("qrc socket Connected\n")
                 self.set_pa_callback()
+                if callback:
+                    callback(True)
                 break
             except Exception as e:
                 print(f"qrc connect error {e}")
@@ -31,6 +33,8 @@ class QRC:
                     threading.Thread(target=self.recv, daemon=True).start()
                     break
                 self.connected = False
+                if callback:
+                    callback(False)
                 time.sleep(5)
 
                 
