@@ -22,11 +22,9 @@ def udp_server_callback(data, addr):
 
         command = params[0]
         if command == "#on":
-            barix_set_relays(relay_indices, True)
             for idx in relay_indices:
                 set_relay(idx - 1, True)
         elif command == "#off":
-            barix_set_relays(relay_indices, False)
             for idx in relay_indices:
                 set_relay(idx - 1, False)
         elif command == "#reset":
