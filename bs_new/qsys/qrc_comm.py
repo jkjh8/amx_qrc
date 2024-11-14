@@ -1,22 +1,22 @@
 from config import *
 
 def qrc_get_zone_gain(qrc, idx):
-    qrc.send(f"zone-{idx}-gain", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.gain"}]})
+    qrc.send(f"gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.gain"}]})
 
 def qrc_get_all_zone_gain(qrc):
-    qrc.send("zone-all-gain", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.gain"} for idx in range(1, page["num_of_zones"] + 1)]})
+    qrc.send("gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.gain"} for idx in range(1, page["num_of_zones"] + 1)]})
 
 def qrc_set_zone_gain(qrc, idx, db):
-    qrc.send(f"zone-{idx}-gain", "Component.Set", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.gain", "Value": str(db)}]})
+    qrc.send(f"gainmute", "Component.Set", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.gain", "Value": str(db)}]})
 
 def qrc_get_zone_mute(qrc, idx):
-    qrc.send(f"zone-{idx}-mute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.mute"}]})
+    qrc.send(f"gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.mute"}]})
 
 def qrc_get_all_zone_mute(qrc, ):
-    qrc.send("zone-all-mute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.mute"} for idx in range(1, page["num_of_zones"] + 1)]})
+    qrc.send("gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.mute"} for idx in range(1, page["num_of_zones"] + 1)]})
 
 def qrc_set_zone_mute(qrc, idx, mute):
-    qrc.send(f"zone-{idx}-mute", "Component.Set", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.mute", "Value": mute}]})
+    qrc.send(f"gainmute", "Component.Set", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.mute", "Value": mute}]})
 
 def qrc_set_start_onair(qrc, zones):
     qrc.send(

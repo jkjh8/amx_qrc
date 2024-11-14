@@ -2,22 +2,15 @@ import json, time, threading
 from mojo import context
 from bs import init_udp_server, get_data_from_server
 from qsys.qsys import init_qsys
-from qsys.buttons import init_buttons_evt, init_UI
-from config import DV_TP, logger, venue_name, zone_name
+from qsys.buttons import init_buttons_evt, init_UI, update_tp_gain_mute, update_tp_btn_names
+from config import DV_TP, logger, venue_name, zone_name, page, qrc_zones
 from relay import check_relay
 
 def tp_online(_):
     global venue_name, zone_name, page, qrc_zones
     try:
-        if venue_name:
-            DV_TP.port[2].send_command(f"^UNI-{1},0," + "".join(format(ord(char), '04X') for char in venue_name))
-        if zone_name and len(zone_name) > 0:
-            for zone_id, zone_name in enumerate(zone_name):
-                DV_TP.port[2].send_command(f"^UNI-{zone_id + 21},0," + "".join(format(ord(char), '04X') for char in zone_name))
-        DV_TP.port[2].channel[7].value = page["qrc_chime"]
-        DV_TP.port[2].send_command("^TXT-5,0," + str(page["qrc_max_page_time"]) + "s")
-        for idx in range(1, page["num_of_zones"] + 1):
-            DV_TP.port[2].channel[idx + 20].value = qrc_zones[idx - 1]
+        update_tp_btn_names()
+        update_tp_gain_mute()
     except Exception as e:
         logger.error(f"tp_online() {e=}")
     
