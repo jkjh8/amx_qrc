@@ -2,6 +2,8 @@ from config import *
 from relay import set_all_relay, set_relay, barix_set_relays, barix_set_relay, barix_set_relay_all
 from qsys.qsys import qrc
 from qsys.qrc_comm import *
+from modules.db import Database
+from mojo import context
 
 qrc_on_air_timeline = None
 qrc_offair_timeline = None
@@ -71,6 +73,7 @@ def btn_evt_off_air():
         print(f"qrc_off_air() Exception {e=}")
 
 def _btn_event(btn):
+    db = Database()
     global page, barixes_ip_addr, num_of_relays, qrc_zones, qrc_zones_mute
     try:
         if btn.value == False:
@@ -78,15 +81,18 @@ def _btn_event(btn):
         # chime
         btnId = int(btn.id)
         if btnId == 7:
-            page["qrc_chime"] = not page["qrc_chime"]
-            DV_TP.port[2].channel[7].value = page["qrc_chime"]
+            chime = not db.find_one("setup", {"key": "chime"})["Bool"]
+            db.update("setup", {"Bool": chime}, {"key": "chime"})
+            DV_TP.port[2].channel[7].value = chime
         # page time
         elif btnId == 3:
-          page["qrc_max_page_time"] = min(300, page["qrc_max_page_time"] + 10)
-          DV_TP.port[2].send_command(f"^TXT-5,0,{page['qrc_max_page_time']}s")
+            pageTime = min(300, db.find_one("setup", {"key": "pageTime"})["Value"] + 10)
+            DV_TP.port[2].send_command(f"^TXT-5,0,{pageTime}s")
+            db.update("setup", {"Value": pageTime}, {"key": "pageTime"})
         elif btnId == 4:
-            page["qrc_max_page_time"] = max(10, page["qrc_max_page_time"] - 10)
+            pageTime = max(10, db.find_one("setup", {"key": "pageTime"})["Value"] - 10)
             DV_TP.port[2].send_command(f"^TXT-5,0,{page['qrc_max_page_time']}s")
+            db.update("setup", {"Value": pageTime}, {"key": "pageTime"})
         # relay all off
         elif btnId == 10:
             for key, value in barixes_ip_addr.items():
@@ -97,10 +103,11 @@ def _btn_event(btn):
             btn_evt_on_air()
         elif btnId == 12:
             btn_evt_off_air()
-        elif btnId >= 21 and btnId <= 44:
+        elif 21 <= btnId <= 44:
             idx = btnId % 20
-            qrc_zones[idx -1] = not qrc_zones[idx - 1]
-            DV_TP.port[2].channel[idx + 20].value = qrc_zones[idx - 1]
+            sel = db.find_one("zones", {"id": idx})["sel"]
+            db.update("zones", {"Sel": not sel}, {"id": idx})
+            DV_TP.port[2].channel[idx + 20].value = not sel
         elif btnId >= 101 and btnId <= 124:
             idx = btnId % 100
             qrc_zones_mute[idx - 1] = not qrc_zones_mute[idx - 1]
@@ -127,6 +134,7 @@ def init_buttons_evt():
         print(f"init_buttons_evt() Exception {e=}")
         
 def _swich_menu(btn):
+    DV_TP = context.devices.get("AMX-10001")
     try:
         if btn.value == False:
             return
@@ -168,6 +176,7 @@ def update_tp_gain_mute():
         
 def update_tp_btn_names():
     global venue_name, zone_name, page
+    DV_TP = context.devices.get("AMX-10001")
     try:
         if venue_name:
             DV_TP.port[2].send_command(f"^UNI-{1},0," + "".join(format(ord(char), '04X') for char in venue_name))
@@ -179,3 +188,17 @@ def update_tp_btn_names():
         DV_TP.port[2].send_command("^TXT-5,0," + str(page["qrc_max_page_time"]) + "s")
     except Exception as e:
         print(f"update_tp_btn_names() Exception {e=}")
+        
+def update_ui_from_db():
+    db = Database()
+    zones = db.fetch("zones")
+    for zone in zones:
+        if zone["Mute"] is not None and zone["Mute"] == 1:
+            DV_TP.port[2].channel[zone['id'] + 100].value = True
+        else:
+            DV_TP.port[2].channel[zone['id'] + 100].value = False
+        if zone["Gain"] is not None:
+            DV_TP.port[2].send_command(f"^TXT-{zone['id'] + 100},0,{str(zone['Gain'])}dB")
+        if zone["Name"] is not None:
+            DV_TP.port[2].send_command(f"^UNI-{zone['id'] + 20},0," + "".join(format(ord(char), '04X') for char in zone['Name']))
+            

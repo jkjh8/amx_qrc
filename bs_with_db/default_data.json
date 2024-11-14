@@ -1,0 +1,243 @@
+{
+    "main_server_ip_addr": "10.20.0.191",
+    "max_page_time": 30,
+    "power_on_delay": 5,
+    "devices": [
+        {
+            "id": 0,
+            "name": "\ubcf8\uc0ac",
+            "ipaddress": "10.20.0.194",
+            "qsys": "10.20.0.21",
+            "num_of_relays": 8,
+            "zones": [
+                "1\uce35",
+                "2\uce35",
+                "3\uce35",
+                "\uc9c0\uc5ed-4",
+                "\uc9c0\uc5ed-5",
+                "\uc9c0\uc5ed-6",
+                "\uc9c0\uc5ed-7",
+                "\uc9c0\uc5ed-8",
+                "\uc9c0\uc5ed-9",
+                "\uc9c0\uc5ed-10",
+                "\uc9c0\uc5ed-11",
+                "\uc9c0\uc5ed-12"
+            ],
+            "barix": {
+                "1": "10.20.0.31",
+                "2": "10.20.0.32"
+            },
+            "num_of_zones": 12
+        },
+        {
+            "id": 2,
+            "name": "\uace0\ub9ac",
+            "ipaddress": "10.20.24.79",
+            "qsys": "10.20.24.78",
+            "num_of_relays": 8,
+            "zones": [
+                "\uace0\ub9ac\ubcf8\ubd80",
+                "1\ubc1c\uc804\uc18c",
+                "2\ubc1c\uc804\uc18c",
+                "3\ubc1c\uc804\uc18c",
+                "\ud1b5\ud569\uc9c0\uc6d0\uc13c\ud130",
+                "\uc548\uc804\uccb4\ud5d8\uc7a5"
+            ],
+            "barix": {}
+        },
+        {
+            "id": 3,
+            "name": "\uc0c8\uc6b8",
+            "ipaddress": "10.20.32.82",
+            "qsys": "10.20.32.87",
+            "num_of_relays": 8,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 4,
+            "name": "\uc6d4\uc131",
+            "ipaddress": "10.20.40.161",
+            "qsys": "10.20.40.160",
+            "num_of_relays": 8,
+            "zones": [
+                "\ubcf8\uad00 B\ub3d9",
+                "\ubcf8\uad00 A\ub3d9",
+                "1\ubc1c\uc804\uc18c",
+                "1\ubc1c \ubcc4\uad00",
+                "2\ubc1c\uc804\uc18c",
+                "3\ubc1c\uc804\uc18c",
+                "\ubd81\ubb38",
+                "\ube44\uc0c1\ub300\uc751\uc124\ube44",
+                "REMC",
+                "\uc18c\ubc29\ub300",
+                "\ubcc4\uad00AB\ub3d9",
+                "\uc2e0\ud6c8\ub828\uc13c\ud130",
+                "\uad6c\ud6c8\ub828\uc13c\ud130",
+                "\ud2b9\uacbd\ub300",
+                "\ub0a8\ubb38",
+                "\ud64d\ubcf4\uad00",
+                "\ud658\uacbd\uc2e4\ud5d8\uc2e4",
+                "\uc790\uc7ac\ucc3d\uace0"
+            ],
+            "barix": {}
+        },
+        {
+            "id": 5,
+            "name": "\ud55c\ube5b",
+            "ipaddress": "10.20.64.77",
+            "qsys": "10.20.64.76",
+            "num_of_relays": 8,
+            "zones": [
+                "\ubcf8\ubd80",
+                "1\ubc1c\uc804\uc18c",
+                "1\ud638\uae30",
+                "2\ud638\uae30",
+                "3\ud638\uae30",
+                "4\ud638\uae30",
+                "3\ubc1c\uc804\uc18c",
+                "5\ud638\uae30",
+                "6\ud638\uae30",
+                "\uc815\ubb38",
+                "\ud64d\ubcf4\uad00",
+                "\uc2e0\ud6c8\ub828\uc13c\ud130",
+                "\uad6c\ud6c8\ub828\uc13c\ud130"
+            ],
+            "barix": {}
+        },
+        {
+            "id": 6,
+            "name": "\ud55c\uc6b8",
+            "ipaddress": "10.20.48.21",
+            "qsys": "10.20.48.20",
+            "num_of_relays": 8,
+            "zones": [
+                "\ubcf8\ubd80",
+                "1\ubc1c\uc804\uc18c",
+                "1\ubc1c \ubcc4\uad00",
+                "2\ubc1c 3\ud638\uae30",
+                "2\ubc1c 4\ud638\uae30",
+                "3\ubc1c\uc804\uc18c",
+                "\uc2e01\ubc1c\uc804\uc18c",
+                "\ubcc4\uad00",
+                "\uc790\uc7ac\ucc3d\uace0",
+                "\uc2e0\ud55c\uc6b8\uac74\uc124\uc18c",
+                "\uc2e0\uaddc\uc6d0\uc804\uc900\ube44\uc2e4",
+                "\ub0a8\ubb38",
+                "\ud6c8\ub828\uc13c\ud130",
+                "\ud64d\ubcf4\uad00",
+                "\ud658\uacbd\uc2e4\ud5d8\uc2e4"
+            ],
+            "barix": {}
+        },
+        {
+            "id": 7,
+            "name": "\ud55c\uac15\uc218\ub825",
+            "ipaddress": "10.20.72.235",
+            "qsys": "10.20.72.232",
+            "num_of_relays": 8,
+            "zones": [
+                "\ud55c\uac15\ubcf8\ubd80",
+                "\ud314\ub2f9\uc218\ub825",
+                "\uccad\ud3c9\uc218\ub825",
+                "\uc758\uc554\uc218\ub825",
+                "\ud654\ucc9c\uc218\ub825",
+                "\uad34\uc0b0\uc218\ub825",
+                "\uce60\ubcf4\uc218\ub825",
+                "\ubcf4\uc131\uac15\uc218\ub825",
+                "\uc218\ub825\uad50\uc721\ud6c8\ub828\uc13c\ud130"
+            ],
+            "barix": {}
+        },
+        {
+            "id": 8,
+            "name": "\uccad\ud3c9",
+            "ipaddress": "10.20.88.221",
+            "qsys": "10.20.88.220",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 9,
+            "name": "\uc0b0\uccad",
+            "ipaddress": "10.20.90.112",
+            "qsys": "10.20.90.111",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 10,
+            "name": "\ubb34\uc8fc",
+            "ipaddress": "10.20.91.214",
+            "qsys": "10.20.91.213",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 11,
+            "name": "\uc608\ucc9c",
+            "ipaddress": "10.20.93.212",
+            "qsys": "10.20.93.211",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 12,
+            "name": "\uc591\uc591",
+            "ipaddress": "10.20.89.211",
+            "qsys": "10.20.89.210",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 13,
+            "name": "\uccad\uc1a1",
+            "ipaddress": "10.20.92.217",
+            "qsys": "10.20.92.216",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 14,
+            "name": "\uc0bc\ub791\uc9c4",
+            "ipaddress": "10.20.94.215",
+            "qsys": "10.20.92.214",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 15,
+            "name": "\uc911\uc559\uc5f0\uad6c\uc6d0",
+            "ipaddress": "10.20.104.32",
+            "qsys": "10.20.104.31",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 16,
+            "name": "\ubc29\ubcf4\uc6d0",
+            "ipaddress": "10.20.16.206",
+            "qsys": "10.20.16.205",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        },
+        {
+            "id": 17,
+            "name": "\uc778\uc7ac\uac1c\ubc1c\uc6d0",
+            "ipaddress": "10.20.109.211",
+            "qsys": "10.20.109.210",
+            "num_of_relays": 4,
+            "zones": [],
+            "barix": {}
+        }
+    ]
+}

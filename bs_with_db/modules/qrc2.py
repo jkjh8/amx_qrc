@@ -52,7 +52,6 @@ class QRC:
                 if not self.connected:
                     self.connect()
                 data = self.queue.get(timeout=0.1)
-                print(f"qrc queue_send {data}")
                 self.send_someting = True
                 self.sock.send(data)
             except queue.Empty:
@@ -66,7 +65,6 @@ class QRC:
         while True:
             try:
                 data = self.sock.recv(self.buffer_size)
-                print (f"qrc recv {data}")
                 if data:
                     self.rt_queue_send(data)
                 else:
@@ -87,7 +85,6 @@ class QRC:
         try:
             while not self.rt_queue.empty() and self.connected:
                 rt = self.rt_queue.get()
-                print(f"qrc _callback {rt}")
                 self.callback(rt)
         except Exception as e:
             print(f"qrc _callback error {e}")

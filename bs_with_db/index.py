@@ -1,16 +1,17 @@
-import json, time, threading
+import threading
 from mojo import context
+from modules.db import Database
 from bs import init_udp_server, get_data_from_server
 from qsys.qsys import init_qsys
-from qsys.buttons import init_buttons_evt, init_UI, update_tp_gain_mute, update_tp_btn_names
+from qsys.buttons import init_buttons_evt, init_UI, update_tp_gain_mute, update_tp_btn_names, update_ui_from_db
 from config import DV_TP, logger, venue_name, zone_name, page, qrc_zones
 from relay import check_relay
 
 def tp_online(_):
-    global venue_name, zone_name, page, qrc_zones
     try:
-        update_tp_btn_names()
-        update_tp_gain_mute()
+        # update_tp_btn_names()
+        # update_tp_gain_mute()
+        update_ui_from_db()
     except Exception as e:
         logger.error(f"tp_online() {e=}")
     
@@ -18,6 +19,13 @@ def bs_check(_):
     get_data_from_server()
     
 if __name__ == "__main__":
+    # start db
+    db = Database()
+    db.create_table('setup', { 'key': 'TEXT', 'Value': 'INTEGER', 'String': 'TEXT', 'Bool': 'BOOLEAN' })
+    db.create_table('zones', { 'Name': 'TEXT', 'Gain': 'REAL', 'Mute': 'BOOLEAN', 'Active': 'BOOLEAN', 'Barix': 'TEXT', 'Sel': 'BOOLEAN' })
+    db.insert('setup', {'key': 'chime', 'Bool': True })
+    db.insert('setup', {'key': 'pageTime', 'Value': 30 })
+    print("DB Started")
     # get_data_form_server
     get_data_from_server()
     # udp server start
@@ -38,5 +46,6 @@ if __name__ == "__main__":
     init_UI()
     
     init_buttons_evt()
+    
     
     context.run(globals())

@@ -1,10 +1,13 @@
-from config import *
+from modules.db import Database
+
 
 def qrc_get_zone_gain(qrc, idx):
     qrc.send(f"gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.gain"}]})
 
 def qrc_get_all_zone_gain(qrc):
-    qrc.send("gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.gain"} for idx in range(1, page["num_of_zones"] + 1)]})
+    db = Database()
+    zones = db.fetch("zones")
+    qrc.send("gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{zone['id']}.gain"} for zone in zones]})
 
 def qrc_set_zone_gain(qrc, idx, db):
     qrc.send(f"gainmute", "Component.Set", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.gain", "Value": str(db)}]})
@@ -12,13 +15,19 @@ def qrc_set_zone_gain(qrc, idx, db):
 def qrc_get_zone_mute(qrc, idx):
     qrc.send(f"gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.mute"}]})
 
-def qrc_get_all_zone_mute(qrc, ):
-    qrc.send("gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.mute"} for idx in range(1, page["num_of_zones"] + 1)]})
+def qrc_get_all_zone_mute(qrc):
+    db = Database()
+    zones = db.fetch("zones")
+    qrc.send("gainmute", "Component.Get", {"Name": "PA", "Controls": [{"Name": f"zone.{zone['id']}.mute"} for zone in zones]})
 
 def qrc_set_zone_mute(qrc, idx, mute):
     qrc.send(f"gainmute", "Component.Set", {"Name": "PA", "Controls": [{"Name": f"zone.{idx}.mute", "Value": mute}]})
 
 def qrc_set_start_onair(qrc, zones):
+    db = Database()
+    chime = db.find_one("setup", {"key": "chime"}).get("Bool", False)
+    page_time = db.find_one("setup", {"key": "pageTime"}).get("Value", 30)
+    
     qrc.send(
         "page-submit",
         "PA.PageSubmit",
@@ -28,11 +37,12 @@ def qrc_set_start_onair(qrc, zones):
             "Priority": 3,
             "Station": 2,
             "Start": True,
-            "Preamble": "Chime ascending triple.wav" if page["qrc_chime"] else "",
-            "MaxPageTime": int(page["qrc_max_page_time"]),
+            "Preamble": "Chime ascending triple.wav" if chime else "",
+            "MaxPageTime": page_time,
         },
     )
     page["qrc_onair"] = True
     
 def qrc_set_stop_on_air(qrc):
-    qrc.send("page-stop", "PA.PageStop", {"PageID": int(page["qrc_page_id"])})
+    db = Database()
+    qrc.send("page-stop", "PA.PageStop", {"PageID": db.find_one("setup", {"key": "pageId"}).get("Value", 0)})
