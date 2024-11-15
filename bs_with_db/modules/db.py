@@ -31,7 +31,6 @@ class Database:
             columns = ', '.join(data.keys())
             values = ', '.join([f"'{value}'" if isinstance(value, str) else str(value) for value in data.values()])
             query = f"INSERT INTO {table_name} ({columns}) VALUES ({values})"
-            print(query)
             self.excute(query)
         except Exception as e:
             print(f"Insert Data Error: {e}")
@@ -141,6 +140,12 @@ class Database:
             
     def __del__(self):
         self.conn.close()
-
+    
+    def __exit__(self):
+        print('db class closed')
+        self.cursor.close()
+        self.conn.close()
+        
     def close(self):
+        self.cursor.close()
         self.conn.close()

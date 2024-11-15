@@ -11,7 +11,7 @@ class UdpServer:
     def run(self):
         self.server_thread = threading.Thread(target=self.handle, daemon=True)
         self.server_thread.start()
-        # print("UDP server thread has started\n")
+        print("UDP server thread has started")
 
     def handle(self):
         print(f"UDP server is starting @ port: {self.port}")

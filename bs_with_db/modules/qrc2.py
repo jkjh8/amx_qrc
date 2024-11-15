@@ -21,7 +21,7 @@ class QRC:
                 threading.Thread(target=self.recv, daemon=True).start()
                 threading.Thread(target=self.queue_send, daemon=True).start()
                 threading.Thread(target=self.noOp, daemon=True).start()
-                print("qrc socket Connected\n")
+                print("qrc socket Connected")
                 self.set_pa_callback()
                 if callback:
                     callback(True)
@@ -46,7 +46,7 @@ class QRC:
         self.queue.put(json.dumps(obj).encode('utf-8') + b'\x00')
         
     def queue_send(self):
-        print("qrc_queue_send_thread_started\n")
+        print("qrc_queue_send_thread_started")
         while True:
             try:
                 if not self.connected:
@@ -68,7 +68,7 @@ class QRC:
                 if data:
                     self.rt_queue_send(data)
                 else:
-                    print("qrc recv error: connection closed by the server\n")
+                    print("qrc recv error: connection closed by the server")
                     self.sock.close()
                     time.sleep(5)
                     self.connected = False

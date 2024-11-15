@@ -1,15 +1,20 @@
 from config import *
 import http.client
+from db.db_setup import db_setup_find_one
+from db.db_zones import db_zones_find
+
+DV_RELAYS = context.devices.get("idevice").relay
+logger = context.log
 
 def set_relay(idx, state_bool):
-    global DV_RELAYS, num_of_relays, logger
+    num_of_relays = db_setup_find_one({"key": "numOfRelay"})["Value"]
     if idx >= 1 and idx <= num_of_relays:
         DV_RELAYS[idx - 1].state.value = state_bool
         logger.info("set_relay() {} {}".format(idx, state_bool))
         return state_bool
     
 def set_all_relay(state_bool):
-    global logger, DV_RELAYS
+    num_of_relays = db_setup_find_one({"key": "numOfRelay"})["Value"]
     try:
         for i in range(num_of_relays):
             DV_RELAYS[i].state.value = state_bool
@@ -18,7 +23,8 @@ def set_all_relay(state_bool):
         logger.error("set_all_relay() {}".format(e))
     
 def check_relay(_):
-    global page, qrc_zones_onair, num_of_relays, logger, DV_RELAYS
+    num_of_relays = db_setup_find_one({"key": "numOfRelay"})["Value"]
+    qrc_zones_onair = [zone["id"] for zone in db_zones_find({"Active": True})]
     try:
         if num_of_relays == 0 or not qrc_zones_onair:
             return
@@ -43,7 +49,8 @@ def barix_set_relay(ip_address, state):
         logger.error(f"barix_set_relay() Exception e={e}")
         
 def barix_set_relay_all(state):
-    global logger, barixes_ip_addr
+    global logger
+    barixes_ip_addr = {zone["id"]: zone["Barix"] for zone in db_zones_find() if zone["Barix"]}
     try:
         for ip in barixes_ip_addr.values():
             barix_set_relay(ip, state)
@@ -51,8 +58,8 @@ def barix_set_relay_all(state):
         logger.error(f"barix_set_realy_all() Exception e={e}")
         
 def barix_set_relays (zones, state):
-    global logger, barixes_ip_addr
-    print(f"barix_set_relays() {zones} {state} {barixes_ip_addr}")
+    global logger
+    barixes_ip_addr = {zone["id"]: zone["Barix"] for zone in db_zones_find() if zone["Barix"]}
     try:
         for idx in zones:
             if idx in barixes_ip_addr:

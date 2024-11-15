@@ -3,9 +3,8 @@ from config import *
 from modules.udp import UdpServer
 from relay import set_relay, barix_set_relay_all, barix_set_relays
 from modules.http_funtions import get_https
-from modules.db import Database
-
-main_server_ip_addr = default_data["main_server_ip_addr"]
+from db.db_setup import db_setup_update, db_setup_find_one
+from db.db_zones import db_zones_update, db_zones_find
 
 def init_udp_server(port):
     udpserver = UdpServer(port, udp_server_callback)
@@ -13,7 +12,7 @@ def init_udp_server(port):
 
 def udp_server_callback(data, addr):
     try:
-        global num_of_relays
+        num_of_relays = db_setup_find_one({"key": "numOfRelay"})["Value"]
         msg = data.decode().replace("\x00", '').rstrip("!")
         if not msg:
             return
@@ -41,56 +40,45 @@ def udp_server_callback(data, addr):
         logger.error(f"udp_server_callback() Exception e={e}")
 
 def get_data_from_server():
-    db = Database()
     try:
-        addr = f"/api/amx?{urllib.parse.urlencode({'ipaddress': qsys_ip_addr})}"
-        response_data = get_https(host=main_server_ip_addr, url=addr)
+        addr = f"/api/amx?{urllib.parse.urlencode({'ipaddress': db_setup_find_one({'key': 'qsys'})['String']})}"
+        response_data = get_https(host=db_setup_find_one({"key": "serverIpAddr"})["String"], url=addr)
         data = json.loads(response_data)
-        
         if "time" in data:
-            db.update("setup", {"Value": int(data["time"])}, {"key": "powerOnDelay"}, upsert=True)
-        
+            db_setup_update({"Value": int(data["time"])}, {"key": "powerOnDelay"})
+
         if "barixes" in data:
             for idx, ip in enumerate(data["barixes"]):
                 if ip:
-                    db.update("zones", {"Barix": ip}, {"id": idx + 1}, upsert=True)
+                    db_zones_update({"Barix": ip}, {"id": idx + 1}, upsert=True)
 
         if "qsys" in data:
-            local_device = data["qsys"]
             # DB
-            db.update("setup", {"String": data["qsys"]["name"]}, {"key": "name"})
+            db_setup_update({"String": data["qsys"]["name"]}, {"key": "name"}, upsert=True)
+            db_setup_update({"Value": len(data["qsys"]["ZoneStatus"])}, {"key": "numOfZones"}, upsert=True)
             for idx, zone in enumerate(data["qsys"]["ZoneStatus"]):
                 if zone:
-                    db.update("zones",
-                        {
-                            "Name": zone.get("Name", f"지역-{idx + 1}"),
-                            "Gain": zone.get("gain", 0.0),
-                            "Mute": zone.get("mute", False),
-                            "Active": zone.get("Active", False)
-                        },
-                        {
-                            "id": zone.get("Zone", idx+1)
-                        },
-                        upsert=True
-                        )
-            db.update("setup", {"Value": len(data["qsys"]["ZoneStatus"])}, {"key": "numOfZones"}, upsert=True)
+                    db_zones_update({
+                        "Name": zone.get("name", f"지역-{idx + 1}") or f"지역-{idx + 1}",
+                        "Gain": zone.get("gain", 0.0),
+                        "Mute": zone.get("mute", False),
+                        "Active": zone.get("Active", False)
+                    }, {"id": zone.get("Zone", idx+1)}, upsert=True)
     except Exception as e:
         logger.error(f"get_data_from_server() Exception e={e}")
             
 def get_barixes():
-    global main_server_ip_addr, page
-    addr = f"/api/amx/barix?{urllib.parse.urlencode({'ipaddress': qsys_ip_addr})}"
-    response_data = get_https(host=main_server_ip_addr, url=addr)
+    addr = f"/api/amx?{urllib.parse.urlencode({'ipaddress': db_setup_find_one({'key': 'qsys'})['String']})}"
+    response_data = get_https(host=db_setup_find_one({"key": "serverIpAddr"})["String"], url=addr)
     for id, ip in enumerate(json.loads(response_data)):
         if ip is not None:
-            barixes_ip_addr.update({id + 1: ip})
+            db_zones_update({"Barix": ip}, {"id": id + 1}, upsert=True)
 
 
 def handle_bs_get_delaytime():
-    global main_server_ip_addr, page
-    addr = f"/api/amx/relayontime?{urllib.parse.urlencode({'ipaddress': qsys_ip_addr})}"
-    response_data = get_https(main_server_ip_addr, url=addr)
+    addr = f"/api/amx?{urllib.parse.urlencode({'ipaddress': db_setup_find_one({'key': 'qsys'})['String']})}"
+    response_data = get_https(host=db_setup_find_one({"key": "serverIpAddr"})["String"], url=addr)
     result = json.loads(response_data)
     if result.get("time") is not None:
-        page["power_on_delay"] = int(result.get("time"))
+        db_setup_update({"Value": int(result.get("time"))}, {"key": "powerOnDelay"})
 
