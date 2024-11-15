@@ -30,7 +30,7 @@ def _qrc_on_air(_):
         print(f"_qrc_on_air() Exception {e=}")
 
 def btn_evt_on_air():
-    global qrc_on_air_timeline, qrc_on_air_timeline
+    global qrc_on_air_timeline, qrc_offair_timeline
     if db_setup_find_one({"key":"onair"})["Bool"]:
         return
     if qrc_on_air_timeline is not None:
@@ -71,7 +71,7 @@ def btn_evt_off_air():
         for idx in selected:
             set_relay(idx, False)
         db_setup_update({"Bool": False}, {"key": "onair"})
-        DV_TP.port[2].send_command("^PPN-popup_offair")
+        DV_TP.port[2].send_command("^PPF-popup_onair")
     except Exception as e:
         print(f"qrc_off_air() Exception {e=}")
 

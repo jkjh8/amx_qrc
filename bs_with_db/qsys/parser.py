@@ -22,9 +22,9 @@ def qrc_parser(data):
                 if "params" in data.keys():
                     db_zones_update({"Active": data["params"]["Active"]}, {"id": data["params"]["Zone"]}, True)
                     on_air = db_zones_exists({"Active": True})
-                    if not on_air:
+                    if on_air == 0:
                         db_setup_update({"Bool": False}, {"key":"onair"})
-                        DV_TP.port[2].send_commnad("^PPF-popup_offair")
+                        DV_TP.port[2].send_command("^PPF-popup_onair")
                     else:
                         db_setup_update({"Bool": True}, {"key":"onair"})
                     # # onair btn
